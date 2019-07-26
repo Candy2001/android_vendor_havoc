@@ -1,7 +1,7 @@
 # Versioning System
 
 ifndef HAVOC_BUILD_TYPE
-    HAVOC_BUILD_TYPE := Unofficial
+    HAVOC_BUILD_TYPE := Fan Edition
 endif
 
 # Only include Havoc OTA for official builds
