@@ -1,13 +1,7 @@
 # Versioning System
 
 ifndef HAVOC_BUILD_TYPE
-    HAVOC_BUILD_TYPE := Fan Edition
-endif
-
-# Only include Havoc OTA for official builds
-ifeq ($(filter-out Official,$(HAVOC_BUILD_TYPE)),)
-    PRODUCT_PACKAGES += \
-        Updater
+    HAVOC_BUILD_TYPE := Autumn
 endif
 
 TARGET_PRODUCT_SHORT := $(subst havoc_,,$(HAVOC_BUILD_TYPE))
