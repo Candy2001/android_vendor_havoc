@@ -17,4 +17,5 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_arm.mk \
     $(LOCAL_DIR)/havoc_arm64.mk \
-    $(LOCAL_DIR)/havoc_x86.mk
+    $(LOCAL_DIR)/havoc_x86.mk \
+    $(LOCAL_DIR)/havoc_x86_64.mk
