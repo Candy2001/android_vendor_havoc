@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     Stk \
     Terminal \
-    Via \
     WallpaperPickerGooglePrebuilt \
     WeatherProvider
 
