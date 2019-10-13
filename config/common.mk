@@ -247,6 +247,3 @@ include vendor/havoc/config/version.mk
 
 # Themes
 include vendor/themes/config.mk
-
-# GApps
-include vendor/gapps/config.mk
